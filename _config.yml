@@ -41,3 +41,8 @@ gems:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#user defined variables
+parent_site:
+  url: "http://grantemersonharper.com"
+  title: "Main Site"

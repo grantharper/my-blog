@@ -2,7 +2,7 @@
 layout: post
 title:  "The Most Important Skill"
 date:   2016-01-16 13:02:58 -0400
-categories: coding
+categories: coding education
 ---
 
 Over the past few years, there have been an increasing number of initiatives to provide kids with the opportunity to learn how to code. I have heard a number of reasons for these efforts, some more compelling than others. The least compelling of all: there will be loads of high-paying coding jobs in the future. Like most sure-fire ways to get rich, it's probably not true. 
