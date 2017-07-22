@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Metric System - Temperature"
-date:   2016-01-03 00:00:00 -0400
+date:   2016-01-03
 categories: education society
 ---
 

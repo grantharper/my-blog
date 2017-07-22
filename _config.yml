@@ -27,7 +27,7 @@ markdown: kramdown
 #theme: minima
 theme: jekyll-swiss
 theme_color: black
-gems:
+plugins:
   - jekyll-feed
 
 # Exclude from processing.

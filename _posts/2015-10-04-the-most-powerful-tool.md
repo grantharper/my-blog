@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Most Powerful Tool"
-date:   2015-10-04 00:00:00 -0400
+date:   2015-10-04
 categories: education
 ---
 
