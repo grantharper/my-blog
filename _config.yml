@@ -18,7 +18,7 @@ email: grant.e.harper@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is how I spin the world
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.grantemersonharper.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.grantharper.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: grant_emersn
 github_username:  grantharper
 
@@ -44,5 +44,5 @@ plugins:
 
 #user defined variables
 parent_site:
-  url: "http://grantemersonharper.com"
+  url: "http://grantharper.org"
   title: "Main Site"
