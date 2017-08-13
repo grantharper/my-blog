@@ -11,7 +11,7 @@ In the post I will discuss the static CMS blog architecture and its benefits. I 
 
 ## Architecture
 
-In general, the blog uses [Jekyll][jekyll-install] to compile markdown files into static HTML, CSS, and Javascript files that can be directly loaded to a publicly accessible web directory. The web directory in this case is an [S3 bucket][aws-s3] with web hosting enabled that has a bucket name **identical** to the domain where the blog is hosted (e.g. blog.grantharper.org). Routing from the domain to the bucket is done via [Route 53][route-53].
+This blog uses [Jekyll][jekyll-install] to compile markdown files into static HTML, CSS, and Javascript files that can be directly loaded to a publicly accessible web directory. The web directory in this case is an [S3 bucket][aws-s3] with web hosting enabled that has a bucket name **identical** to the domain where the blog is hosted (e.g. blog.grantharper.org). Routing from the domain to the bucket is done via [Route 53][route-53].
 
 <img src="/img/blog-architecture.png">
 
@@ -43,11 +43,11 @@ The following calculator estimates the cost on a per month basis of using Amazon
 
 </style>
 **Metric** | **Value** | **Estimate as of 8/9/2017**
-Storage in GB | <input id="storage" class="interactive" type="text" name="storage"/> | 0.000250
-Number of Requests | <input id="numRequests" class="interactive" type="text" name="numRequests"/> | 200 (optimistic)
-Number of Files Uploaded | <input id="numUploads" class="interactive" type="text" name="numUploads"/> | 1000
-Data Transfer to Internet | <input id="dataTransfer" class="form-control interactive" type="text" name="dataTransfer"/> | 0.500
-**Total S3 Cost per Month** | **$** <span id="totalCost">0</span> | **$ 0.01**
+Storage (GB) | <input id="storage" class="interactive" type="text" name="storage" size="4" /> | 0.000250
+Requests | <input id="numRequests" class="interactive" type="text" name="numRequests" size="4" /> | 200 (optimistic)
+Files Uploaded | <input id="numUploads" class="interactive" type="text" name="numUploads" size="4" /> | 1000
+Data to Internet (GB) | <input id="dataTransfer" class="form-control interactive" type="text" name="dataTransfer" size="4" /> | 0.500
+**Total** | **$** <span id="totalCost">0</span> | **$ 0.01**
 
 ## Secure
 
@@ -69,7 +69,7 @@ You can start with a pre-built theme and override any file you want by replicati
 
 ## Setup
 
-* Install [Ruby][ruby-install]
+* Install [Ruby][ruby-install]: follow instructions for your OS
 * Install [Jekyll][jekyll-install]: `gem install jekyll bundler`
 * Create blog directory: `jekyll new my-blog`
 * Move into directory: `cd my-blog`
@@ -82,13 +82,15 @@ You can start with a pre-built theme and override any file you want by replicati
 
 Below is a simple process flow that illustrates how to go from authoring a post, to deploying it live on the internet.
 
-<img src="/img/blog-pipeline-3.png">
+<img src="/img/blog-pipeline.png">
 
 ### Specific steps and commands
 
 * Create a file in the `_posts` directory with the format `yyyy-mm-dd-blog-title.md`
+* Add the standard posts header to the file and add content
 * Open a terminal in the root directory and run the command `jekyll serve`
 * Preview the new post at `localhost:4000`
+* Build an updated `_site` directory with `jekyll build`
 * Deploy the new post using the command `aws s3 sync _site s3://blog.grantharper.org`
 * View the new post on [blog.grantharper.org][blog-website]
 
