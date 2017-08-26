@@ -15,6 +15,6 @@ There are a lot of improvements to be made in this world, and if religion motiva
 
 Here's the simple truth: there are a lot of ways to live a happy, fulfilling life. Many people tend to think that their way is the only way, but it's just not true in the slightest. In the end, that's my biggest problem with Mormonism and all religions that claim to be the only way to find "_true_" happiness. My way is the only way? Nonsense.
 
-In closing, don't call me crazy, I'm happy.
+Tolerance of other philosophies isn't good enough. For me, acceptance that my way is not the only valid option has resulted in a certain humility that lets me discover and explore the fascinating potpourri of ideas present on this planet. And that makes me happy.
 
 <iframe src="https://open.spotify.com/embed/track/1zS85RlXiRuTiWpDIOhICA" width="300" height="100" frameborder="0" allowtransparency="true"></iframe>

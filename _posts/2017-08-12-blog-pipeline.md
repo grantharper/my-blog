@@ -59,7 +59,7 @@ Wordpress, on the other hand, is a favorite PHP playground for hackers, especial
 
 AWS S3 page load times are in the milliseconds. 
 
-In contrast, some of the cheaper web hosting options require multiple seconds to load a Wordpress page.
+In contrast, some of the cheaper web hosting options require multiple seconds to load a page rendered by a cheap resource-constrained server.
 
 ## Fully customizable
 
