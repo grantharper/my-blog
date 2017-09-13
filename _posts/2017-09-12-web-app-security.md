@@ -12,11 +12,11 @@ In the process of creating this sample application, I became more aware of just 
 The security demo web application currently illustrates SQL injection, cross-site scripting (xss), insecure direct object reference, and cross-site request forgery (csrf). Once you have the app running, below is an interesting flow that illustrates just how badly things can go wrong. For details on how to perform these actions, take a look at the [README][README].
 
 * Log in as an employee to view the general employee functionality
-* Log in to a user profile and attack with xss vulnerability
-* Log back in to the employee portal and see the hack happen based on stored xss
-* Check the hack-output.txt to see the bank account info that was transmitted
-* Now that the hacker knows what is in each account, use SQL injection to move money from another account to the hacker's account
-* Lure employee to use csrf to close the account that was compromised using the sample forum page below
+* Log in to a user profile (e.g. liz) and attack with xss vulnerability
+* Log back in to the employee portal and see the what happens based on stored xss
+* Open the `hack-output.txt` to see the bank account info that was transmitted from the xss attack
+* Use SQL injection to move money from account 1 to account 4 (your account)
+* Log in to the employee portal and click the csrf link below on the sample forum page to close the account that was compromised
 
 Below is a sample forum page that can conduct a csrf attack on the security demo app
 <div>
@@ -39,7 +39,7 @@ Below is a sample forum page that can conduct a csrf attack on the security demo
 </div>
 </div>
 
-If you're interested in this sort of thing, I would highly recommend the [NATAS][natas] web security demo website. Below are the passwords for future reference and reminders of the bad practices that allow for vulnerabilities to be introduced.
+If you're interested in this sort of thing, I would recommend checking out the [NATAS][natas] web security demo website. It is a game where you search for the password that has been insecurely stored on each level of the web app.
 
 The table below identifies how to crack a few of the initial levels.
 
