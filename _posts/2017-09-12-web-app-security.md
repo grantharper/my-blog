@@ -33,7 +33,7 @@ Below is a sample forum page that can conduct a csrf attack on the security demo
 </form>
 <br/>
 <p>Click to see the most surprising fact about eating fruit daily!</p>
-<form action="http://grantharper.org" method="post">
+<form action="https://grantharper.org" method="post">
     <button class="btn btn-primary">CORS Test</button>
 </form>
 </div>

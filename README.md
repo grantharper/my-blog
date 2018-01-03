@@ -24,7 +24,7 @@ The [jekyll swiss][jekyll-swiss] template default files can be found at the foll
 * Deploy the site to S3: `aws s3 sync _site s3://blog.grantharper.org` 
 * View the live site: [blog.grantharper.org][blog-website]
 
-[blog-website]: http://blog.grantharper.org
+[blog-website]: https://blog.grantharper.org
 [ruby-install]: https://www.ruby-lang.org/en/documentation/installation/
 [jekyll-install]: https://jekyllrb.com/
 [jekyll-swiss]: https://github.com/broccolini/swiss

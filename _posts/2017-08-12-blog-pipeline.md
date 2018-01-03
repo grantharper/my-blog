@@ -94,7 +94,7 @@ Below is a simple process flow that illustrates how to go from authoring a post,
 * Deploy the new post using the command `aws s3 sync _site s3://blog.grantharper.org`
 * View the new post on [blog.grantharper.org][blog-website]
 
-[blog-website]: http://blog.grantharper.org
+[blog-website]: https://blog.grantharper.org
 [ruby-install]: https://www.ruby-lang.org/en/documentation/installation/
 [jekyll-install]: https://jekyllrb.com/
 [route-53]: https://aws.amazon.com/route53/
