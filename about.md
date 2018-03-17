@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about.html
 ---
 
 My name is Grant Harper. Since I read the following passage during a Thanksgiving break in my college years, my life has never been quite the same. I don't mean to be overly dramatic, but the combination of reading _East of Eden_ and the events and thoughts I was experiencing at the time resulted in one of the defining periods in my life, for which I am very grateful. I hope that you find these profound words inspirational as well.
