@@ -24,6 +24,9 @@ The [jekyll swiss][jekyll-swiss] template default files can be found at the foll
 * Deploy the site to S3: `aws s3 sync _site s3://blog.grantharper.org` 
 * View the live site: [blog.grantharper.org][blog-website]
 
+## AWS Cloudfront 
+* The site is cached with AWS Cloudfront in order to use a security certificate on top of S3. If the same file is uploaded to S3, you may need to invalidate the cache in the Cloudfront console in order to update the file stored at the edge location. Invalidating the root of the site is often the easiest way to do this.
+
 [blog-website]: https://blog.grantharper.org
 [ruby-install]: https://www.ruby-lang.org/en/documentation/installation/
 [jekyll-install]: https://jekyllrb.com/
