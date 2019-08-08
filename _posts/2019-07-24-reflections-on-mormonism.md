@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Reflections on Mormonism"
+date:   2019-07-24
+categories: life
+---
+
+July 24th is a Pioneer Day in Utah. On that day, the state celebrates the Mormon pioneers who settled Utah, a process that formally started with the arrival of Brigham Young in the Salt Lake Valley. Some of my ancestors were among those who crossed the plains because of their religious beliefs. Others crossed the ocean in pursuit of religious freedom. One thing is absolutely clear to me. Their beliefs were more important than their comfort. They risked everything because of what they believed.
+
+Archibald McPhail is one of the many great names in my family's history. Archibald made the attempt to cross the plains with his family by handcart, fleeing religious persecution. Handcarts were made for those who could not afford to purchase oxen to pull a wagon across the plains. Instead of being pulled by strong oxen, handcarts were pulled by the travelers themselves. The journey was extremely difficult, especially when the weather turned cold. At one point, a fellow traveler refused to move any further. Not wanting to leave her behind to freeze to death, Archibald attempted to carry her across the ice of a frozen river. Unfortunately, the ice broke under their combined weight. They made it to the other side, but the exposure caused Archibald to die a number of days later. He died doing what he believed in, united with others in their common desire to practice their faith freely. Archibald and all of the many pioneers in my family held their beliefs dear and did not make compromises when life became difficult. 
+
+About four years ago, I stopped attending and practicing Mormonism altogether. It was a difficult decision that required a great deal of thought over many years. In the end, my belief system does not align with that of the Mormon faith, and I refuse to compromise, showing tacit support for a system that I do not believe represents the best that humanity can achieve. Given my family and friends and their deep connections to this faith, it may have made my life more complicated and challenging that it otherwise would have been. While I know that the sacrifices my ancestors made for their beliefs were more significant than my own, like my pioneer ancestors, I do not balk in the face of challenges. When I'm forced to be a pioneer because of my beliefs, I don't continue down the path that is well trodden by my peers and family. I go exploring.
